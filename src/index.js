@@ -45,7 +45,7 @@ export const getFixedValue = (number, accuracy) => {
  * @returns {number}
  */
 export const getFlooroCeil = (number) => {
-  return Math.trunc(number) % 2 == 0 ? Math.floor(number) : Math.ceil(number);
+  return Math.trunc(number) % 2 === 0 ? Math.floor(number) : Math.ceil(number);
 };
 
 /**
